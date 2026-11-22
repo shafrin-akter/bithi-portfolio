@@ -1,0 +1,179 @@
+// =====================================================================
+//  PROJECTS
+//  - image: public/assets/images/projects/ folder er file er nam (.png chara).
+//    Chobi na pele /assets/images/hero1.png dekhabe.
+//  - category: filter button gulo category theke automatic toiri hoy.
+//    Notun category likhle notun button chole asbe.
+//  - links.view / links.code: khali ("") rakhle oi button dekhabe na.
+// =====================================================================
+
+
+export const projectsSection = {
+  "heading": "My",
+  "headingAccent": "Projects",
+  "subheading": "Explore my research work across Machine Learning, Deep Learning, Explainable AI, Federated Learning, and AI for Healthcare."
+};
+
+
+export const projects = [
+  {
+    "name": "Federated & Explainable ANC Quality Prediction",
+    "desc": "Privacy-preserving Federated Learning (FedAvg, FedProx) and SHAP XAI model using BDHS 2022 data across 8 divisions of Bangladesh.",
+    "image": "anc_federated_xai",
+    "category": "Machine Learning",
+    "links": {
+      "view": "",
+      "code": "https://github.com/Sohag016/anc-quality-federated-learning-bangladesh"
+    }
+  },
+  {
+    "name": "People Tracking & Analytics Pipeline",
+    "desc": "Real-time video analytics notebook for multi-person tracking, 17-keypoint pose estimation, face localization, and wrist-to-object association.",
+    "image": "People Analytics",
+    "category": "Computer Vision",
+    "links": {
+      "view": "https://lnkd.in/p/dYZz6hEZ",
+      "code": "https://github.com/Sohag016/People-Analytics-Person-Face-Pose-Held-Object-Detection"
+    }
+  },
+  {
+    "name": "Garment Worker Tracking",
+    "desc": "A YOLO11 and ByteTrack pipeline for monitoring garment worker productivity by tracking poses and analyzing working versus idle times.",
+    "image": "Garment Worker",
+    "category": "Computer Vision",
+    "links": {
+      "view": "https://github.com/Sohag016/Garment-Worker-Tracking/blob/main/output_tracked.mp4",
+      "code": "https://github.com/Sohag016/Garment-Worker-Tracking"
+    }
+  },
+  {
+    "name": "Multimodal Consistency Reasoning for Fake News",
+    "desc": "Novel fake news framework on Fakeddit using RoBERTa + ResNet-50, CLIP alignment, Tesseract OCR, and learned MLP fusion with consistency scoring.",
+    "image": "multimodal_fake_news_xai",
+    "category": "Machine Learning",
+    "links": {
+      "view": "",
+      "code": "https://github.com/Sohag016/multimodal-fake-news-detection-consistency-reasoning"
+    }
+  },
+  {
+    "name": "LiteGAN-FedNet: Brain Tumor MRI Classification",
+    "desc": "An explainable federated learning framework using conditional GAN feature augmentation, ResNet18 feature extraction, PCA, and multi-level XAI (SHAP, Grad-CAM, LIME).",
+    "image": "litegan_fednet_mri",
+    "category": "Computer Vision",
+    "links": {
+      "view": "",
+      "code": "https://github.com/Sohag016/brain-tumor-classification-federated-learning"
+    }
+  },
+  {
+    "name": "Football Match Intelligence: YOLO Player Tracking & Tactical Analytics",
+    "desc": "Real-time football match analysis pipeline using YOLOv8, ByteTrack, K-Means jersey clustering, homography pitch calibration, pass detection, heatmaps, and minimap generation.",
+    "image": "football_analytics_yolo",
+    "category": "Computer Vision",
+    "links": {
+      "view": "https://lnkd.in/p/d8W24tkD",
+      "code": "https://github.com/Sohag016/football-match-intelligence-yolo-tracking"
+    }
+  },
+  {
+    "name": "LiteHybridNet-DPAM: Lightweight Brain Tumor Classification",
+    "desc": "Novel lightweight brain tumor MRI classification framework featuring Dual-Path Attention (DPAM), Multi-Scale Fusion, MC Dropout uncertainty, and XAI on Figshare and Mendeley datasets.",
+    "image": "litehybridnet_dpam_mri",
+    "category": "Computer Vision",
+    "links": {
+      "view": "",
+      "code": "https://github.com/Sohag016/LiteHybridNet-DPAM-brain-tumor-classification"
+    }
+  },
+  {
+    "name": "Sentiment Analysis on Amazon Product Reviews",
+    "desc": "Binary sentiment classification pipeline on Amazon product reviews using NLP preprocessing, TF-IDF vectorization, 5 classical ML models, GridSearchCV tuning, and comparative evaluation.",
+    "image": "amazon_sentiment_nlp",
+    "category": "Machine Learning",
+    "links": {
+      "view": "",
+      "code": "https://github.com/Sohag016/Sentiment-Analysis-on-Amazon-Reviews#%EF%B8%8F-sentiment-analysis-on-amazon-product-reviews"
+    }
+  },
+  {
+    "name": "Handwritten Character Recognition with Deep CNN",
+    "desc": "End-to-end handwritten digit and character recognition pipeline using dual CNN models on MNIST and EMNIST Balanced datasets with MixUp augmentation, Keras callbacks, and full evaluation.",
+    "image": "emnist_character_recognition",
+    "category": "Deep Learning",
+    "links": {
+      "view": "",
+      "code": "https://github.com/Sohag016/CodeAlpha_HandwrittenCharacterRecognition"
+    }
+  },
+  {
+    "name": "Brain Tumor Classification using Swin Transformer + CNN + BiLSTM",
+    "desc": "Automated brain tumor classification from MRI scans using a hybrid architecture combining Swin Transformer (global context), CNN (local features), and BiLSTM (sequential feature fusion).",
+    "image": "brain_mri_swin_transformer",
+    "category": "Deep Learning",
+    "links": {
+      "view": "",
+      "code": "https://github.com/Sohag016/Swin-Transformer-CNN-BiLSTM-hybrid-deep-learning-architecture-"
+    }
+  },
+  {
+    "name": "Multimodal Political Meme Classification",
+    "desc": "Deep learning multimodal classification system for meme political sentiment detection using Vision Transformer (ViT), DistilBERT, Tesseract OCR, and feature fusion.",
+    "image": "multimodal_meme_classification",
+    "category": "Deep Learning",
+    "links": {
+      "view": "",
+      "code": "https://github.com/Sohag016/Multimodal-Political-Meme-Classification"
+    }
+  },
+  {
+    "name": "AI Chat Agent using n8n + OpenRouter",
+    "desc": "An automated AI chat agent workflow built using n8n and OpenRouter API to process user input and deliver real-time intelligent AI responses.",
+    "image": "n8n_ai_chat_workflow",
+    "category": "AI Automation",
+    "links": {
+      "view": "",
+      "code": "https://github.com/Sohag016/AI-Chat-Agent-n8n-OpenRouter"
+    }
+  },
+  {
+    "name": "Automated Newsletter Agent",
+    "desc": "An automated AI newsletter agent built using n8n, Google Gemini AI, Google Sheets, and Gmail API to handle subscriptions, log user data, and deliver confirmation emails.",
+    "image": "n8n_newsletter_agent_workflow",
+    "category": "AI Automation",
+    "links": {
+      "view": "",
+      "code": "https://github.com/Sohag016/n8n-automated-newsletter-agent"
+    }
+  },
+  {
+    "name": "Credit Scoring Model (Classification)",
+    "desc": "A machine learning project built during the CodeAlpha internship to predict credit card payment defaults using Logistic Regression, Decision Trees, and Random Forest models on the UCI Credit Card dataset.",
+    "image": "codealpha_credit_scoring_model",
+    "category": "Machine Learning",
+    "links": {
+      "view": "",
+      "code": "https://github.com/Sohag016/CodeAlpha_CreditScoringModel"
+    }
+  },
+  {
+    "name": "Time-Series Forecasting of CO and NO2 Levels",
+    "desc": "A machine learning and time-series modeling project focused on predicting hourly CO(GT) and NO2(GT) concentrations using ARIMA, Random Forest Regressor, and feature engineering techniques.",
+    "image": "time_series_air_pollution_forecasting",
+    "category": "Machine Learning",
+    "links": {
+      "view": "",
+      "code": "https://github.com/Sohag016/Time-Series-Forecasting-of-CO-NO-Levels"
+    }
+  },
+  {
+    "name": "Predicting Customer Credit Mix - End-to-End ML Workflow",
+    "desc": "An end-to-end machine learning pipeline built to classify customer credit mix (Good, Standard, Poor) using Logistic Regression, Random Forest, and Support Vector Classifier with GridSearchCV tuning.",
+    "image": "credit_mix_prediction_ml_workflow",
+    "category": "Machine Learning",
+    "links": {
+      "view": "",
+      "code": "https://github.com/Sohag016/Predicting-Customer-Credit-Mix"
+    }
+  }
+];
