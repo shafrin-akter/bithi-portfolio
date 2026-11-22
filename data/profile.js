@@ -71,8 +71,8 @@ export const socials = {
   // Niche gulo khali, tai icon dekhabe na. Link thakle boshiye din.
   "twitter": "",
   "orcid": "",
-  "whatsapp": "",          // jemon "https://wa.me/8801630434000"
-  "whatsappLabel": "",     // jemon "WhatsApp: 01630434000"
+  "whatsapp": "https://wa.me/8801630434000",
+  "whatsappLabel": "WhatsApp: 01630434000",
   "telegram": ""
 };
 
