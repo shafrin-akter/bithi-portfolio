@@ -6,8 +6,8 @@
 
 // Basic info (header, footer, about, contact section e dekhabe)
 export const profile = {
-  "name": "Sohag Hossain",
-  "shortName": "Sohag",
+  "name": "Mst Moriom Akter Bithee",
+  "shortName": "Bithee",
   "title": "Machine Learning Engineer",
   "tagline": "Research & Engineering",
   "email": "moriomkamal9@gmail.com",
@@ -24,7 +24,7 @@ export const profile = {
 export const hero = {
   "statusBadge": "Available for Projects",
   "greeting": "Hi, I'm",
-  "name": "Sohag Hossain",
+  "name": "Mst Moriom Akter Bithee",
   "expertiseLabel": "Expertise in",
   "typingTexts": [
     "Machine Learning",
@@ -78,7 +78,7 @@ export const socials = {
 
 // Footer
 export const footer = {
-  "title": "Sohag's Portfolio",
+  "title": "Bithee's Portfolio",
   "text": "Thank you for visiting my personal portfolio website. Connect with me over socials.",
   "motto": "Keep Rising 🚀",
   "creditName": "Sohag",
@@ -89,11 +89,11 @@ export const footer = {
 export const seo = {
   // Nijer domain thakle ekhane din (jemon "https://bithi.vercel.app"). Khali rakhle Vercel er URL nije nibe.
   "siteUrl": "",
-  "title": "Sohag Hossain | Machine Learning Engineer & Data Scientist",
-  "description": "Welcome to Sohag's Portfolio. Data Science and Machine Learning Engineer specializing in Artificial Intelligence, Deep Learning, Computer Vision, and AI Automation.",
+  "title": "Mst Moriom Akter Bithee | Machine Learning Engineer & Data Scientist",
+  "description": "Welcome to Bithee's Portfolio. Data Science and Machine Learning Engineer specializing in Artificial Intelligence, Deep Learning, Computer Vision, and AI Automation.",
   "keywords": [
-    "Sohag Hossain",
-    "Sohag",
+    "Mst Moriom Akter Bithee",
+    "Bithee",
     "Machine Learning Engineer",
     "Data Scientist",
     "Artificial Intelligence",
@@ -110,6 +110,6 @@ export const contactSection = {
   "heading": "Let's build",
   "headingAccent": "together.",
   "subheading": "Transforming complex data into intelligent solutions.",
-  "namePlaceholder": "Sohag Hossain",
-  "emailPlaceholder": "sohag@example.com"
+  "namePlaceholder": "Mst Moriom Akter Bithee",
+  "emailPlaceholder": "bithee@example.com"
 };
